@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            background-image: url("java2.jpg");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            color: rgb(255, 255, 255);
+            font-family: Arial, sans-serif;
+        }
+
+      
+
+        button#themeToggle {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+
+        /* Centralizar o texto e estilizá-lo */
+        main {
+            text-align: center;
+            padding: 20px;
+        }
+
+        main h1 {
+            font-size: 24px;
+            font-family: "Your Font Name", sans-serif; /* Substitua pelo nome da fonte desejada */
+        }
+
+        /* Estilizar a apresentação da página */
+        .welcome-message {
+            font-size: 36px;
+            font-weight: bold;
+            margin-top: 100px;
+        }
+
+        .your-name {
+            font-size: 48px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .developer-title {
+            font-size: 36px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        /* Estilizar a foto redonda */
+        .profile-image {
+            border-radius: 50%;
+            width: 250px;
+            height: 250px;
+            object-fit: cover;
+            margin: 0 auto; /* Centralizar a foto na tela */
+        }
+
+        /* Estilizar os ícones de contato */
+        .contact-icons {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .contact-icons li {
+            margin: 0 10px;
+        }
+
+        .contact-icons a {
+            color: white;
+            font-size: 24px;
+        }
+
+        .contact-icons i {
+            margin: 0 5px;
+        }
+
+        /* Estilizar a seção "Sobre Mim" */
+        .about-me {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .about-me-description {
+            font-size: 18px;
+        }
+
+        /* Estilizar a seção de projetos */
+        .project {
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .project img {
+            max-width: 150px;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .project-name {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .project-description {
+            margin-top: 10px;
+        }
+
+        .project-buttons {
+            margin-top: 20px;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            text-decoration: none;
+            color: #fff;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px;
+        }
+
+        .btn-github {
+            background-color: #333;
+        }
+    </style>
+    <title>My Portfolio</title>
+</head>
+<body>
+
+    <main>
+        <div class="welcome-message">Welcome! Feel free!</div>
+        <div class="your-name">{Antonio;}</div>
+        <div class="developer-title">Web developer</div>
+        <img src="minha.jpg" alt="Minha Foto" class="profile-image">
+
+        <div class="projects-container">
+            <div class="project">
+        <h2 class="about-me">About me</h2>
+        <p class="about-me-description">
+            I am a Full Stack Developer with expertise in several technologies:
+            <br>
+            <br>
+            <strong>Backend:</strong> I am proficient in Java Spring Boot and Java EE, specializing in creating REST APIs for effective systems.
+            <br>
+            <strong>Frontend:</strong> I work with JavaScript and TypeScript to develop dynamic and attractive web interfaces, using the powerful React framework.
+            <br>
+            Additionally, I master HTML and CSS languages to create responsive and visually pleasing layouts. I am constantly up to date with the latest technologies and am known for my ability to learn quickly. I am committed to delivering high-quality products and creating exceptional solutions that meet customer needs.
+        </p>
+    </div>
+
+    <h2 class="about-me">My services and technologies I work with</h2>
+    <div class="projects-container">
+        <div class="project">
+            <h2 class="about-me">My Services</h2>
+            <p class="about-me-description">
+                I offer a wide range of specialized website development services, ranging from e-commerce for retail and supermarkets to school management systems. My expertise extends to websites of all categories, in addition to REST API with Java Spring MVC and development with Node.js. Whatever your needs, I am ready to create high-quality, personalized web solutions.
+                <br>
+            <h2 class="about-me">Technologies I work with</h2>
+            <p class="about-me-description">
+                Java, JavaScript, TypeScript, Html, and CSS.
+                <br>
+                <h2 class="about-me">databases I work with</h2>
+            <p class="about-me-description">
+                PostgreSQL, Mysql and MongoDB.
+                <br>
+                <h2 class="about-me">framework I work</h2>
+                
+                <strong>Structures I use in the backend:</strong> Java (Spring web MVC, Enterprise Edition  and JSF), JavaScript (Node.js) and TypeScript (LoopBack)
+                <br>
+                <strong>structures I work on the frontend:</strong> JavaScript (React and Angular.), TypeScript (Angular), CSS (Bootstrap, Foundation, Bulma, Materialize CSS, Pure.css)
+                <br>
+            </p>
+        </div>
+
+        <h2 class="about-me">My Projects</h2>
+        
+        <div class="projects-container">
+            <div class="project">
+                <img src="Talavera.png" alt="Projeto 1">
+                <div class="project-name">Talavera Restaurant</div>
+                <div class="project-description">
+                    Project Description 1: This project is a modern and robust web application that combines the best of Java Spring Boot, Node.js, React.js, TypeScript, HTML and CSS technologies to provide an exceptional experience for customers and restaurant staff.
+                </div>
+                <div class="project-buttons">
+                    <a href="https://www.talaverabar.com.br/" class="btn">See project</a>
+                    <a href="https://github.com/joaoantoniosilva/Talavera.git" class="btn btn-github">GitHub</a>
+                </div>
+            </div>
+
+            <div class="project">
+                <img src="Gestao de matricula.png" alt="Projeto 2">
+                <div class="project-name">Student enrollment management</div>
+                <div class="project-description">
+                    Project Description 2: My project features a robust backend developed in Java Spring Boot and uses the PostgreSQL database to store student data. The frontend is built with HTML and CSS, providing a simple and friendly user interface for efficient management of enrollment and academic information . Note (The project backend has been disabled for updates, it will soon be working again).
+                </div>
+                <div class="project-buttons">
+                    <a href="https://joaoantoniosilva.github.io/Matricula/" class="btn">See project</a>
+                    <a href="https://github.com/joaoantoniosilva/Matricula.git" class="btn btn-github">GitHub</a>
+                </div>
+            </div>
+
+            <div class="project">
+                <img src="havanna.png" alt="Projeto 3">
+                <div class="project-name">Promotion of a local shopping mall</div>
+                <div class="project-description">
+                    Project Description 3. I developed a captivating website for a chocolate store in a shopping mall in my city. Using HTML, CSS and JavaScript, I created an online platform that showcases delicious products, opening hours and important information
+                </div>
+                <div class="project-buttons">
+                    <a href="https://joaoantoniosilva.github.io/lojateste/" class="btn">See project</a>
+                    <a href="https://github.com/joaoantoniosilva/lojateste.git" class="btn btn-github">GitHub</a>
+                </div>
+            </div>
+
+            <div class="project">
+                <img src="bijuteria.png" alt="Projeto 4">
+                <div class="project-name">Bijou</div>
+                <div class="project-description">
+                    Project Description 4. I created a beautiful piece of jewelry combining my experience in Back-end with Java Spring MVC and Node.js to the Front-end with HTML and CSS. The project is a fusion of technology and design, resulting in a unique and charming piece.
+                </div>
+                <div class="project-buttons">
+                    <a href="https://www.monbijoux.com.br/" class="btn">See project</a>
+                    <a href="https://github.com/joaoantoniosilva/bijuteria.git" class="btn btn-github">GitHub</a>
+                </div>
+            </div>
+        </div>
+        <div class="project">
+            <div class="project-description">
+                contact me
+        <ul class="contact-icons">
+            <li><a href="https://www.instagram.com/jaozin.ant/?next=%2F"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://wa.me/5565992479810?text=Ol%C3%A1+Jo%C3%A3o%2C+gostaria+de+contratar+um+servi%C3%A7o+"><i class="fab fa-whatsapp"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/jo%C3%A3o-ant%C3%B4nio-da-silva-4367a1262/"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="mailto:jbybyzinho@gmail.com"><i class="fas fa-envelope"></i></a></li>
+            <li><a href="https://github.com/joaoantoniosilva?tab=repositories"><i class="fab fa-github"></i></a></li>
+        </ul>
+    </main>
+    <script>
+        const themeToggle = document.getElementById("themeToggle");
+        const body = document.body;
+
+        themeToggle.addEventListener("click", () => {
+            body.classList.toggle("light-theme");
+        });
+    </script>
+</body>
+</html>
